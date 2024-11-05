@@ -1,4 +1,4 @@
-This Python script will calculate your Helldivers 2 level if you've already hit the cap.
+This Python script will calculate your Helldivers 2 level after you hit the cap.
 
 ## How to Use This Script
 
