@@ -81,9 +81,11 @@ def display_progress_bar(xp_into_current_level, xp_needed_for_next_level, bar_le
 
 # Example usage:
 if __name__ == "__main__":
-    total_xp_input = 1776793  # Replace this with your total XP
+    total_xp_input = int(input("Enter the total XP: "))                               
     level, xp_into_current_level, xp_needed_for_next_level = calculate_level(total_xp_input)
     print(f"With {total_xp_input} XP, you are at level {level}.")
     print(f"XP into current level: {xp_into_current_level}/{xp_needed_for_next_level} XP")
     display_progress_bar(xp_into_current_level, xp_needed_for_next_level)
 
+ # 
+ # 
